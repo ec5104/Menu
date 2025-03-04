@@ -1,0 +1,47 @@
+body {
+    background-color: pink;
+}
+
+h1 {
+    text-align: center;
+}
+
+img.title {
+    width: 100%;
+}
+.item-container{
+    float:right;
+    width: 620px;
+    margin-right: 203px;
+    margin-bottom: 100px;
+    margin-top: -20px;
+}
+
+.item-columns{
+    display: inline-block; 
+    width: 300px;
+}
+
+.item{
+    font-size: 21px;
+    display: inline-block; 
+    margin: 0;
+    margin-left: -20px;
+    list-style-type: none;
+}
+
+.item-price{
+    display: inline-block; 
+    width: 20px;
+    font-size: 21px;
+    margin: 20px;
+    margin-left: 5px;
+    list-style-type: none;
+}
+/* this is a comment in css */
+
+/*
+ol {
+    list-style-type:none;
+}
+*/
