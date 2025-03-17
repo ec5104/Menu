@@ -50,10 +50,25 @@ img.title {
     margin: 20px;
     list-style-type: none;
 }
-/* this is a comment in css */
 
-/*
-ol {
-    list-style-type:none;
+#background-music {
+    display: block;
+    margin: 20px auto;
+    width: 300px; /* Adjust the width */
+    filter: drop-shadow(2px 2px 5px gray); /* Adds a shadow effect */
+    border-radius: 10px; /* Makes it slightly rounded */
 }
-*/
+
+/* Hide default controls but keep functionality */
+#background-music::-webkit-media-controls-panel {
+    background-color: lightcoral; /* Changes player background */
+    border-radius: 10px;
+}
+
+#background-music::-webkit-media-controls-play-button {
+    filter: invert(1); /* Changes the play button color */
+}
+
+#background-music::-webkit-media-controls-volume-slider {
+    filter: brightness(1.2); /* Enhances brightness on volume slider */
+}
