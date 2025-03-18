@@ -51,24 +51,19 @@ img.title {
     list-style-type: none;
 }
 
-#background-music {
+#music-toggle {
     display: block;
     margin: 20px auto;
-    width: 300px; /* Adjust the width */
-    filter: drop-shadow(2px 2px 5px gray); /* Adds a shadow effect */
-    border-radius: 10px; /* Makes it slightly rounded */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-/* Hide default controls but keep functionality */
-#background-music::-webkit-media-controls-panel {
-    background-color: lightcoral; /* Changes player background */
-    border-radius: 10px;
-}
-
-#background-music::-webkit-media-controls-play-button {
-    filter: invert(1); /* Changes the play button color */
-}
-
-#background-music::-webkit-media-controls-volume-slider {
-    filter: brightness(1.2); /* Enhances brightness on volume slider */
+#music-toggle:hover {
+    background-color: #c70039;
 }
